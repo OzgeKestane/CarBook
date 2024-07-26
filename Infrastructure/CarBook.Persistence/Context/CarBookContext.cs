@@ -7,7 +7,7 @@ namespace CarBook.Persistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;initial Catalog=CarBookDb;Trusted_Connection=true;TrustServerCertificate = True;")
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;initial Catalog=CarBookDb;Trusted_Connection=true;TrustServerCertificate=true;");
         }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Banner> Banners { get; set; }
