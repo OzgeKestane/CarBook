@@ -21,3 +21,4 @@ namespace CarBook.Application.Features.CQRS.Handlers.AboutHandlers
             await _repository.UpdateAsync(values);
         }
     }
+}
