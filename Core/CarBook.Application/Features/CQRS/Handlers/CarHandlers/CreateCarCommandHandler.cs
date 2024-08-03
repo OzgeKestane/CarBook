@@ -23,7 +23,8 @@ namespace CarBook.Application.Features.CQRS.Handlers.CarHandlers
                 Model = command.Model,
                 Seat = command.Seat,
                 Transmission = command.Transmission,
-                BigImageUrl = command.BigImageUrl
+                BigImageUrl = command.BigImageUrl,
+                BrandId = command.BrandId
             });
         }
     }
