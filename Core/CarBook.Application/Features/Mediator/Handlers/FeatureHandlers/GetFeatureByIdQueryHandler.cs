@@ -20,7 +20,7 @@ namespace CarBook.Application.Features.Mediator.Handlers.FeatureHandlers
             var values = await _featureRepository.GetByIdAsync(request.Id);
             return new GetFeatureByIdQueryResult
             {
-                FeatureId = request.Id,
+                FeatureId = values.FeatureId,
                 Name = values.Name
             };
         }
