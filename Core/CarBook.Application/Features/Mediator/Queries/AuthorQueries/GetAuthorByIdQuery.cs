@@ -1,9 +1,9 @@
-﻿using CarBook.Application.Features.CQRS.Results.AboutResults;
+﻿using CarBook.Application.Features.Mediator.Results.AuthorResults;
 using MediatR;
 
 namespace CarBook.Application.Features.Mediator.Queries.AuthorQueries
 {
-    public class GetAuthorByIdQuery : IRequest<GetAboutByIdQueryResult>
+    public class GetAuthorByIdQuery : IRequest<GetAuthorByIdQueryResult>
     {
         public int Id { get; set; }
 
