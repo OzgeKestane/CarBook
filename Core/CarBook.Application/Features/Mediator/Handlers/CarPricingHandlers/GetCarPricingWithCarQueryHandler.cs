@@ -1,4 +1,5 @@
-﻿using CarBook.Application.Features.Mediator.Results.CarPricingResults;
+﻿using CarBook.Application.Features.Mediator.Queries.CarPricingQueries;
+using CarBook.Application.Features.Mediator.Results.CarPricingResults;
 using CarBook.Application.Interfaces.CarPricingInterfaces;
 using MediatR;
 
