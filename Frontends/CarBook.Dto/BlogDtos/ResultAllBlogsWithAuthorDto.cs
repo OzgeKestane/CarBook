@@ -12,6 +12,8 @@
         public DateTime createdDate { get; set; }
         public int categoryId { get; set; }
         public string Description { get; set; }
+        public string AuthorDescription { get; set; }
+        public string AuthorImageUrl { get; set; }
 
 
     }
